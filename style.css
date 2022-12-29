@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head1 {
+    display: flex;
+    background-color: rgb(105, 11, 11);
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-left: 35px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-style: initial;
+}
+
+.navbar {
+    background-color: black;
+    height: 50px;
+    padding-top: 25px;
+}
+
+#date {
+    color: gray;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+h2 {
+    background-color: rgb(171, 171, 171);
+    color: black;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.TopNews {
+    background-color: black;
+    color: white;
+    margin-top: -5px;
+    padding: 13px;
+}
+
+.popular {
+    background-color: black;
+    color: white;
+    margin-top: -5px;
+    padding: 13px;
+}
+
+.how {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    /* margin-top: 20px; */
+}
+
+.container2 {
+    margin-top: 20px;
+    padding-left: 200px;
+}
+
+.container1 p {
+    background-color: black;
+    color: white;
+}
+
+.poluerimg {
+    background-color: black;
+}
+
+.footerImg {
+    background-color: black;
+    padding-left: 800px;
+    padding-top: 20px;
+}
+
+.foot {
+    padding-left: 50px;
+}
+
+.footer1 {
+    padding-left: 500px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footernavbar {
+    display: flex;
+    background-color: black;
+}
+
+.sleep {
+    width: 200px;
+}
